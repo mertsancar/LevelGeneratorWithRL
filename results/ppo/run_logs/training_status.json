@@ -1,0 +1,38 @@
+{
+    "GridGenerator": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results\\ppo\\GridGenerator\\GridGenerator-499999.onnx",
+                "reward": 0.7801503041870452,
+                "creation_time": 1684978072.8455925,
+                "auxillary_file_paths": [
+                    "results\\ppo\\GridGenerator\\GridGenerator-499999.pt"
+                ]
+            },
+            {
+                "steps": 500004,
+                "file_path": "results\\ppo\\GridGenerator\\GridGenerator-500004.onnx",
+                "reward": 0.7796852646638054,
+                "creation_time": 1684978072.9562993,
+                "auxillary_file_paths": [
+                    "results\\ppo\\GridGenerator\\GridGenerator-500004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500004,
+            "file_path": "results\\ppo\\GridGenerator.onnx",
+            "reward": 0.7796852646638054,
+            "creation_time": 1684978072.9562993,
+            "auxillary_file_paths": [
+                "results\\ppo\\GridGenerator\\GridGenerator-500004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
